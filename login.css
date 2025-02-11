@@ -1,8 +1,8 @@
 /* Definindo o fundo da página como imagem */
 body {
     background-image: url(../DokiDoki/imgs/fundo.png); /* imagem de fundo */
-    background-size: cover; /* Faz com que a imagem cubra toda a tela */
-    background-position: center; /* Centraliza a imagem */
+  /*  background-size: cover; /* Faz com que a imagem cubra toda a tela */
+   /* background-position: center; /* Centraliza a imagem */ */
 }
 
 /* Div do cabeçalho */
