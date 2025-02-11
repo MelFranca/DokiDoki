@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="poemas.css">
+        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="voteaqui.css">
+
+        <title>Vote aqui na sua melhor personagem!</title>
+    </head>
+
+
+    <body>
+        <!--Div do cabeçalho-->
+        <div id="cabeca">
+            <img class="logo" src="../Autoria/logo.png" alt="Logo">
+            <h1 class="titulo">Eleição para presidente do Club de Literatura!</h1>
+        </div>
+        
+        <!--Formulário de votação-->
+        <div id="FormularioVotacao" style="text-align:center; margin-top: 50px;">
+            <form action="FIM.html" method="POST">
+                <label for="personagem" style="font-family: cursive; font-size: 20px;">Escolha uma das candidatas a presidência:</label><br>
+                <select id="personagem" name="personagem" required style="width: 250px; padding: 10px; margin: 10px; border-radius: 4px; border: 1px solid #ccc;">
+                    <option value="yuri">Yuri</option>
+                    <option value="monika">Monika</option>
+                    <option value="natsuki">Natsuki</option>
+                    <option value="sayori">Sayori</option>
+                </select><br>
+
+                <label for="text" style="font-family: cursive; font-size: 20px;">Qual é a sua sugestão para a nova gestão?</label><br>
+                <textarea id="text" name="text" required style="padding: 10px; margin: 10px; border-radius: 4px; border: 1px solid #ccc; width: 250px; height: 50px;"></textarea><br>
+              
+                <input type="submit" value="Votar" style="background-color: rgb(174, 12, 131); color: white; padding: 15px 30px; font-size: 18px; border: none; border-radius: 4px; cursor: pointer;">
+                                
+            </form>
+        </div>
+        <!--Div do 'botão' "voltar"-->
+        <div id="volte">
+            <a class="voltar" href="DokiDoki.html">
+                Voltar
+            </a>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,143 @@
+/* Definindo o fundo da página como imagem */
+body {
+    background-image: url(../Autoria/fundo.png); /* imagem de fundo */
+    background-size: cover; /* Faz com que a imagem cubra toda a tela */
+    background-position: center; /* Centraliza a imagem */
+}
+
+/* Div do cabeçalho */
+#cabeca {
+    background-color: rgb(255, 193, 217); /* Cor do fundo */
+    height: 100px; /* Altura */
+    text-align: center; /* Alinhamento do texto */
+    color: white; /* Cor do texto */
+    clear: both; /* Impede que outros elementos se posicionem ao lado */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Imagem do logo */
+.logo {
+    float: left; /* Desloca a imagem à esquerda */
+    width: 110px; /* Largura */
+    height: 110px; /* Altura */
+    padding-top: 1px; /* Espaçamento interno superior */
+    padding-bottom: 20px; /* Espaçamento interno inferior */
+}
+
+/* Botão Voltar */
+.voltar {
+    color: rgb(174, 12, 131); /* Cor das letras */
+    text-decoration: none; /* Remove sublinhado */
+    font-family: cursive; /* Fonte cursiva */
+    font-size: 25px; /* Tamanho da fonte */
+    text-align: right; /* Alinhamento do texto */
+    float: right; /* Desloca o botão à direita */
+}
+
+/* Botão Voltar (ao passar o mouse por cima) */
+.voltar:hover {
+    color: rgb(255, 193, 217); /* Cor das letras ao passar o mouse */
+}
+
+/* Título */
+.titulo {
+    font-family:cursive;/*estilo da fonte*/
+    font-size: 37px;/*tamanho da letras*/
+    text-align: center;/*alinhamneto do texto*/
+    padding-right: 50%;/*espaçamento interno(direita)*/
+    padding-left: 47%;/*espacamento interno(esquerda)*/
+}
+
+/* Estilo do formulário de login */
+#loginForm {
+    text-align: center; /* Centraliza o conteúdo */
+    margin-top: 50px; /* Espaçamento superior */
+    font-family: cursive; /* Fonte cursiva */
+}
+
+/* Estilo dos campos de input (usuário e senha) */
+input[type="text"], input[type="password"] {
+    width: 250px; /* Largura dos campos */
+    padding: 10px; /* Preenchimento interno */
+    margin: 10px; /* Margem entre os campos */
+    border-radius: 4px; /* Bordas arredondadas */
+    border: 1px solid #ccc; /* Cor da borda */
+    font-family: cursive; /* Fonte cursiva */
+    font-size: 18px; /* Tamanho da fonte */
+}
+
+/* Estilo do botão de envio */
+input[type="submit"] {
+    background-color: rgb(174, 12, 131); /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 15px 30px; /* Preenchimento interno */
+    font-size: 18px; /* Tamanho da fonte */
+    border: none; /* Sem borda */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro */
+    font-family: cursive; /* Fonte cursiva */
+}
+
+/* Estilo do botão de envio (ao passar o mouse por cima) */
+input[type="submit"]:hover {
+    background-color: rgb(255, 193, 217); /* Cor de fundo ao passar o mouse */
+    color: rgb(174, 12, 131); /* Cor do texto ao passar o mouse */
+}
+
+/* Tamanho da descrição de cada campo (nome e senha) */
+label {
+    font-family: cursive; /* Fonte cursiva */
+    font-size: 20px; /* Tamanho da fonte */
+    color: rgb(174, 12, 131); /* Cor do texto */
+}
+
+.formulario{
+            max-width: 480px;
+            margin: 50px auto;
+        }
+
+        .campo{
+            color: #aca4a4;
+            font-family: 'open_sansregular';
+            font-size: 16px;
+            border-radius: 3px;
+            line-height: 20px;
+            background-color: transparent;
+            border: 2px solid #D2D2D2;
+            transition: all 0.3s;
+            padding: 11px;
+            margin-bottom: 15px;
+            width: 100%;
+            box-sizing: border-box;
+            outline: 0;
+        }
+
+        .campo:focus{
+            border: 2px solid #10addd;
+            color: #10addd;
+        }
+
+        textarea{
+            height: 150px;
+            line-height: 150%;
+            resize: none;
+        }
+        .butao{
+            font-family: 'open_sansregular';
+            width: 100%;
+            background-color: #15e6e6;
+            color: azure;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 22px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            transition: all 0.3s;
+            font-weight: 700;
+            border: 0;
+        }
+        .butao:hover{
+            background-color: gray;
+        }
+
+        

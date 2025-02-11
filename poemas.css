@@ -1,0 +1,59 @@
+body{
+    background-image: url(../Autoria/fundo.png);/*imagem do fundo*/
+}
+
+/*div do cabeçalho*/
+#cabeca{
+    background-color: rgb(255, 193, 217);/*cor do fundo*/
+    height: 100px;/*altura*/
+    text-align: center;/*alinhamento do texto*/
+    color: white;/*cor das letras*/
+    clear: both;/*impede que outros elementos se posicionem aos seus lados(esquqqedo e direito)*/
+    padding: 20px; /*espacamento interno*/
+}
+
+/*imagem logo*/
+.logo{
+    float: left;/*deslocamento do elemento*/
+    width: 110px;/*largura*/
+    height: 110px;/*altura*/
+    position: static;/*como a imagem se comporta*/
+    padding-top: 1px;/*espaçamento interno(topo)*/
+    padding-bottom: 20px;/*espaçamento interno(base)*/
+}
+
+/*botão voltar*/
+.voltar{
+    color: rgb(174, 12, 131);/*cor das letras*/
+    text-decoration: none;/*decoração do texto(sublinhado)*/
+    font-family: cursive;/*estilo de fonte*/
+    font-size: 25px;/*tamanho da fonte*/
+    text-align: right;/*alinhamento do texto*/
+    float: right;/*deslocamento do elemento*/
+}
+/*botão voltar(ao passar mause por cima)*/
+.voltar:hover{
+    color: rgb(255, 193, 217); /*cor das letras*/
+}
+
+/*titulo*/
+.titulo{
+    font-family:cursive;/*estilo de fonte*/
+    font-size: 37px; /*tamanho das letras*/
+    margin-right: 0px;/*margem(direita)*/
+    padding-right: 0px;/*espaçamento interno(direita)*/
+}
+
+/*descrição dos poemas*/
+.S, .N, .Y, .M{
+    font-family: cursive;/*estilo de fonte*/
+    font-size: 23px;/*tamanho das letras*/
+    color: rgb(174, 12, 131);/*cor das letras*/
+    text-align: center;/*alinhamento do texto*/
+}
+
+/*imagem dos poemas*/
+.poemaS, .poemaY, .poemaN, .poemaM{
+display: block;/*indica que um elemento HTML deve ser renderizado como um bloco, tal como um parágrafo ou um cabeçalho*/
+margin: auto;/*margem*/
+}

@@ -1,0 +1,90 @@
+body{
+  background-image: url(../Autoria/fundo.png); /*imagem de fundo*/
+}
+
+/*cabeçalho*/
+#cabeca{
+    background-color: rgb(255, 193, 217);/*cor do fundo*/
+    height: 100px;/*altura*/
+    padding: 20px;/*espaçamento inetrno*/
+    color: white;/*cor das letras*/
+    clear: both;/*impede que outros elementos se posicionem aos seus lados(esquqqedo e direito)*/
+}
+
+/*imagem logo*/
+.logo{
+    float: left;/*desloca o elemento*/
+    width: 110px;/*largura*/
+    height: 110px;/*altura*/
+    position: static;/*como a imagem se comporta*/
+    padding-top: 1px;/*espaçamento interno(topo)*/
+    padding-bottom: 20px;/*espaçamento inetrno(base)*/
+}
+
+/*titulo*/
+.titulo{
+    font-family:cursive;/*estilo da fonte*/
+    font-size: 37px;/*tamanho da letras*/
+    text-align: center;/*alinhamneto do texto*/
+    padding-right: 50%;/*espaçamento interno(direita)*/
+    padding-left: 42%;/*espacamento interno(esquerda)*/
+}
+
+/* div do botão voltar*/
+#volte{
+  float: right;/*desloca o elemento*/
+  height: 40px;/*altura*/
+  text-align: right;/*alinhamento do texto*/
+  padding-bottom: 5px;/*espaçamento inetrno(base)*/
+  clear: both;/*impede que outros elementos se posicionem aos seus lados(esquqqedo e direito)*/
+}
+/*botão voltar*/
+.voltar{
+  color: rgb(174, 12, 131);/*cor das letras*/
+  text-decoration: none;/*decorações do texto(sublinhado)*/
+  font-family: cursive;/*estilo da fonte*/
+  font-size: 25px;/*tamanho das letras*/
+  text-align: right;/*alinhamento do texto*/
+  float: right;/*deslocamento do elemento*/
+}
+/*botão voltar(ao passar o mause por cima*/
+.voltar:hover{
+color: rgb(255, 193, 217); /*cor das letras*/
+}
+
+/*div da imagem das personagens*/
+#meninas{
+  width: 23%;/*largura*/
+  height: 1000px;/*altura*/
+  float: left;/*deslocamento da fonte*/
+}
+
+/*imagem das personagens*/
+.s, .y, .n{
+  width: 290px;/*largura*/
+  height: 290px;/*altura*/
+}
+
+/*imagem de um das personagnes(esta em tamanho diferente, por isso foi separado)*/
+.m{
+  width: 295px;/*largura*/
+  height: 295px;/*altura*/
+}
+
+/*div dos textos*/
+#textos{
+  width: 50%;/*largura*/
+  height: 1000px;/*altura*/
+  float: left;/*deslocamento do elemento*/
+}
+
+/*textos sobre as personagens*/
+.tS, .tY, .tM, .tN{
+  color: rgb(174, 12, 131);/*cor das letras*/
+  font-family: cursive;/*estilo de fonte*/
+  margin-bottom: 170px;/*margem(base)*/
+  margin-top: 75px;/*margem(topo)*/
+  margin-right: 40px;/*margem(direita)*/
+  padding-right: 40px;/*espacamento interno(direito)*/
+  text-align: justify;/*alinhamento do texto*/
+}

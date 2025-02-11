@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="poemas.css">
+        <link rel="stylesheet" href="login.css">
+        
+        <title>Login</title>
+    </head>
+    <body>
+        <!--Div do cabeçalho-->
+        <div id="cabeca">
+            <img class="logo" src="../Autoria/logo.png" alt="Logo">
+            <h1 class="titulo">Login</h1>
+        </div>
+        
+        <!--Formulário de Login-->
+        <div id="FormularioLogin" style="text-align:center; margin-top: 50px;">
+            <form action="voteaqui.html" method="POST">
+                <label for="username" style="font-family: cursive; font-size: 20px;">Nome de usuário:</label><br>
+                <input type="text" id="username" name="username" required style="width: 250px; padding: 10px; margin: 10px; border-radius: 4px; border: 1px solid #ccc;"><br>
+
+                <label for="email" style="font-family: cursive; font-size: 20px;">Email:</label><br>
+                <input type="email" id="email" name="email" required style="width: 250px; padding: 10px; margin: 10px; border-radius: 4px; border: 1px solid #ccc;"><br>
+
+                <label for="password" style="font-family: cursive; font-size: 20px;">Senha:</label><br>
+                <input type="password" id="password" name="password" required style="width: 250px; padding: 10px; margin: 10px; border-radius: 4px; border: 1px solid #ccc;"><br>
+
+                <input type="submit" value="Entrar" style="background-color: rgb(174, 12, 131); color: white; padding: 15px 30px; font-size: 18px; border: none; border-radius: 4px; cursor: pointer;" >
+            </form>
+        </div>
+
+        <!--Div do 'botão' "voltar"-->
+        <div id="volte">
+            <a class="voltar" href="DokiDoki.html">
+                Voltar
+            </a>
+        </div>
+    </body>
+</html>

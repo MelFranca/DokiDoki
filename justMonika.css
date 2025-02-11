@@ -1,0 +1,99 @@
+body{
+background-image: url(../Autoria/fundo.png); /*imagem do plano de fundo*/
+}
+
+/*menu*/
+#escolhe {
+    background-color: rgb(255, 193, 217); /**/
+    color: white; /*cor das letras*/
+    width: 20%; /*largura*/
+    height: 900px; /*altura*/
+    float: left; /*desloca o elemento*/
+    text-align: center; /*alinhamento do texto*/
+    font-family: cursive; /*estilo da fonte*/
+}
+
+/*logo do jogo*/
+.logo{
+    float: left, top; /*deslocamento*/
+    width: 250px; /*largura*/
+    height: 250px; /*altura*/
+    position: static; /*como a imagem vai se comportar*/
+}
+
+/*palavra "menu"*/
+.menu{
+    padding-top: 20px;/*espacamento interno(topo)*/
+    font-size: 40px; /*tamanho da fonte*/
+}
+
+/*lista de opções*/
+.opcoes{
+    font-size: 30px;/*tamanho da fonte*/
+    line-height: 67px;/*espacamneto entre linhas*/
+    list-style-type: none;/*retirar marcações(bolinhas)*/
+    padding-right: 25px;/*espacamento interno(direita)*/
+    padding-left: 25px;/*espaçamento interno(esquerdo)*/
+}
+
+/*links para outras paginas*/
+.a1, .a2, .a3, .a4{
+    color: white;/*cor das letras*/
+    text-decoration: none;/*decoração dos links(sublinhado)*/
+}
+/*links para outras paginas(ao passar o mause por cima)*/
+.a1:hover, .a2:hover, .a3:hover, .a4:hover{
+    color: rgb(174, 12, 131);/*cor das letras*/
+}
+
+/*textos*/
+#texto{
+    width: 33%;/*largura*/
+    height: 300px;/*altura*/
+    float: left;/*deslocamento*/
+    color: rgb(174, 12, 131);/*cor das letras*/
+    text-align: justify;/*alinhamento do texto*/
+    font-family: cursive;/*estilo de fonte*/
+    padding-left: 20px;/*espaçamento interno(esquerdo)*/
+}
+
+/*links de onde achar os jogos*/
+.links, .plus, .normal{
+    line-height: 37px;/*espaçamento entre linhas*/
+    list-style-type: none;/*retirar marcações*/
+    color: rgb(174, 12, 131);/*cor das letras*/
+    padding-left: 5px;/*espaçamento interno(esquerdo)*/
+
+}
+/*links de onde achar os jogos(ao passar o mause por cima)*/
+.links:hover, .plus:hover, .normal:hover{
+    color: rgb(255, 193, 217);/*cor das letras*/
+}
+
+/*tabela de requisitos*/
+.tabela{
+    border-color: rgb(174, 12, 131);/*cor da borda*/
+}
+
+/*link escondido*/
+.clique{
+    color: rgb(255, 193, 217);/*cor das letras*/
+    font-size: 5px;/*tamanho da fonte*/
+}
+
+/*Div da imagem das personagens*/
+#meninas{
+    width: 40%;/*largura*/
+    height: 710px;/*altura*/
+    float: right;/*deslocamento*/
+}
+
+/*imagem das meninas*/
+.meninas{
+    width: 580px;/*largura*/
+    height: 580px;/*altura*/
+    padding-left: 0px;/*espacamento interno(esquerda)*/
+    margin-left: 0px;/*margem(esquerda)*/
+    position: fixed;/*como a imagem vai se comportar*/
+}
+

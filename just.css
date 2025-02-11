@@ -1,0 +1,21 @@
+body{
+    background-image: url("../Autoria/abismo.png");/*imagem do fundo*/
+}
+
+/*div do texto*/
+#just{
+    float: right;/*delocamento do elemnto*/
+    background-color: rgb(164, 56, 56);/*cor do fundo*/
+    width: 20%;/*largura*/
+    height: 720px;/*altura*/
+}
+
+/**/
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;/*estilo de fonte*/
+    font-size: 47px;/*tamanho das letras*/
+    color: rgb(80, 14, 14);/*cor das letras*/
+    padding-right: 30px;/*espaçamento inetrno(direita)*/
+    text-align: center;/*alinhamento do texto*/
+}
