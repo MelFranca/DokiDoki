@@ -42,26 +42,26 @@ body{
 }
 
 .logo{
-    float: left;/*desloca o elemento*/
     width: 10px;/*largura*/
     height: 10px;/*altura*/
     position: static;/*como a imagem se comporta*/
 }
 
 .menu{
-  font-family: cursive;
-  color: white;
-  font-size: 15px;
-  text-align: center;
-  text-decoration: none;
-  list-style-type: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
-/*.apersonagens{
-  font-family:cursive;
-  font-size: 37px;
-  text-align: center;
-  float: left;
-}*/
+
+.menu li{
+  margin-left: 20px;
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+}
 
 .dropdown{
   position: relative;
@@ -77,16 +77,18 @@ body{
   z-index: 1;
 }
 
-/*.poemas, .trailer, .votar, .voltar{
-  font-size: 30px;
-  line-height: 67px;
-  list-style-type: none;
-  text-decoration: none;
-  color: white;
-}*/
+.dropdown:hover, .dropdown-content{
+  display: block;
+}
 
-.poemas:hover, .trailer:hover, .votar:hover, .voltar:hover{
-  color: rgb(174, 12, 131);/*cor das letras*/
+.dropdown-content li{
+  margin: 0;
+}
+
+.dropdown-content a{
+  color: white;
+  padding: 10px;
+  display: block;
 }
 
 
