@@ -3,6 +3,7 @@ body{
 }
 
 /*cabeçalho*/
+
 #cabeca{
     background-color: rgb(255, 193, 217);/*cor do fundo*/
     height: 100px;/*altura*/
@@ -10,16 +11,10 @@ body{
     color: white;/*cor das letras*/
     clear: both;/*impede que outros elementos se posicionem aos seus lados(esquqqedo e direito)*/
 }
+*/
 
 /*imagem logo*/
-.logo{
-    float: left;/*desloca o elemento*/
-    width: 110px;/*largura*/
-    height: 110px;/*altura*/
-    position: static;/*como a imagem se comporta*/
-    padding-top: 1px;/*espaçamento interno(topo)*/
-    padding-bottom: 20px;/*espaçamento inetrno(base)*/
-}
+
 
 /*titulo*/
 .titulo{
@@ -98,11 +93,15 @@ color: rgb(255, 193, 217); /*cor das letras*/
   align-items: center;
 }
 
-.logo a{
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
+#logo{
+    float: left;/*desloca o elemento*/
+    width: 110px;/*largura*/
+    height: 110px;/*altura*/
+    position: static;/*como a imagem se comporta*/
+    padding-top: 1px;/*espaçamento interno(topo)*/
+    padding-bottom: 20px;/*espaçamento inetrno(base)*/
 }
+
 
 .menu{
   list-style: none;
@@ -111,9 +110,16 @@ color: rgb(255, 193, 217); /*cor das letras*/
   display: flex;
 }
 
-.menu li{
-  margin-left: 20px;
+.apersonagens{
+  font-family:cursive;/*estilo da fonte*/
+    font-size: 37px;/*tamanho da letras*/
+    text-align: center;/*alinhamneto do texto*/
+    padding-right: 50%;/*espaçamento interno(direita)*/
+    padding-left: 42%;/*espacamento interno(esquerda)*/
 }
+/*.menu li{
+  margin-left: 20px;
+}*/
 
 .menu a{
   color: white;
@@ -125,25 +131,22 @@ color: rgb(255, 193, 217); /*cor das letras*/
 }
 
 .dropdown-content{
+  color: white;
   display: none;
   position: absolute;
   background-color: rgb(255, 193, 217);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px
-  rgba(0, 0, 0, 0.2);
+  rgb(255, 193, 217);  
   z-index: 1;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover, .dropdown-content {
   display: block;
 }
 
-.dropdown-content li{
-  margin: 0;
+.menuSuspenso{
+  color:rgb(255, 193, 217);
+  font-family: cursive;
 }
 
-.dropdown-content a{
-  color: #333;
-  padding: 10px;
-  display: block;
-}
