@@ -19,27 +19,31 @@
         -->
 
         <nav class="navbar">
-            <div class="logo">
-                <a href="#"><img src="../DokiDoki/imgs/logo.png"></a>
+            <a class="navbar-brand" href="#">Personagens</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Mais
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Origens</a>
+                    <a class="dropdown-item" href="#">Clases</a>
+                    <a class="dropdown-item" href="#">Rituais</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Ajuda</a>
+                  </div>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0" >
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-custom-search my-2 my-sm-0" type="submit" >Buscar</button>
+              </form>
             </div>
-            <ul class="nav-menu">
-                <li class="nav-item active">
-                    <a class="nav-per" href="#">Personagens</a>
-                </li>
-            <li class="nav-item-dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Opções
-                    </a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="../DokiDoki/POEMAS.html">Poemas</a>
-                <a class="dropdown-item" href="../DokiDoki/login.html">Votar</a>
-                <a class="dropdown-item" href="../DokiDoki/index.html">Voltar</a>
-              </div>
-                </li>
-                <li class="nav-item-link"><a href="../DokiDoki/index.html">Voltar</a></li>  
-            </ul>
-        </ul>
-        </nav>
+          </nav>
 
         <!--Div da imagem das personagens-->
        <div id="meninas">
@@ -91,19 +95,6 @@
 
 
     <!-- JavaScript (Opcional) -->
-     <script>
-        const menuItems = document.querySelectorAll('.menu li');
-
-        menuItems.forEach(item => {
-            item.addEventListener('mouseover', () => {
-            item.style.backgroundColor = '#555';
-        });
-
-        item.addEventListener('mouseout', () => {
-            item.style.backgroundColor = '';
-        });
-        });
-     </script>
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
