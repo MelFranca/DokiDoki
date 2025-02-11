@@ -143,6 +143,8 @@ color: rgb(255, 193, 217); /*cor das letras*/
 
 .dropdown:hover, .dropdown-content {
   display: block;
+  background-color: rgb(255, 193, 217);
+  color: rgb(174, 12, 131);
 }
 
 .menuSuspenso{
