@@ -43,17 +43,25 @@ body{
 
 .logo{
     float: left;/*desloca o elemento*/
-    width: 50px;/*largura*/
-    height: 50px;/*altura*/
+    width: 10px;/*largura*/
+    height: 10px;/*altura*/
     position: static;/*como a imagem se comporta*/
 }
 
-.apersonagens{
-  font-family:cursive;/*estilo da fonte*/
-  font-size: 37px;/*tamanho da letras*/
-  text-align: center;/*alinhamneto do texto*/
-  float: left;
+.menu{
+  font-family: cursive;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
 }
+/*.apersonagens{
+  font-family:cursive;
+  font-size: 37px;
+  text-align: center;
+  float: left;
+}*/
 
 .dropdown{
   position: relative;
@@ -69,21 +77,17 @@ body{
   z-index: 1;
 }
 
-.poemas, .trailer, .votar, .voltar{
-  font-size: 30px;/*tamanho da fonte*/
-  line-height: 67px;/*espacamneto entre linhas*/
-  list-style-type: none;/*retirar marcações(bolinhas)*/
+/*.poemas, .trailer, .votar, .voltar{
+  font-size: 30px;
+  line-height: 67px;
+  list-style-type: none;
   text-decoration: none;
   color: white;
-}
+}*/
 
 .poemas:hover, .trailer:hover, .votar:hover, .voltar:hover{
   color: rgb(174, 12, 131);/*cor das letras*/
 }
 
-.menuSuspenso{
-  color:white;
-  font-family: cursive;
-  font-size: 30px;
-}
+
 
