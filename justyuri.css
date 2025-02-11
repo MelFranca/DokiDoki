@@ -42,28 +42,38 @@ body{
 }
 
 .logo{
-    width: 10px;/*largura*/
-    height: 10px;/*altura*/
+    width: 50px;/*largura*/
+    height: 50px;/*altura*/
     position: static;/*como a imagem se comporta*/
 }
 
-.menu{
+.nav-menu{
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
 }
 
-.menu li{
-  margin-left: 20px;
-}
-
-.menu a{
+.nav-item-dropdown{
   color: white;
-  text-decoration: none;
+  font-family: cursive;
+  font-size: 15px;
 }
 
-.dropdown{
+.dropdowm-menu{
+  font-family: cursive;
+  color: white;
+  font-size: 15px;
+}
+
+.nav-item-link{
+  font-family: cursive;
+  color: white;
+  font-size: 15px;
+}
+
+
+/*.dropdown{
   position: relative;
 }
 
@@ -89,7 +99,7 @@ body{
   color: white;
   padding: 10px;
   display: block;
-}
+}*/
 
 
 
