@@ -2,27 +2,9 @@ body{
   background-image: url(../DokiDoki/imgs/fundo.png); /*imagem de fundo*/
 }
 
-/*cabeçalho*/
-
-#cabeca{
-    background-color: rgb(255, 193, 217);/*cor do fundo*/
-    height: 100px;/*altura*/
-    padding: 20px;/*espaçamento inetrno*/
-    color: white;/*cor das letras*/
-    clear: both;/*impede que outros elementos se posicionem aos seus lados(esquqqedo e direito)*/
-}
-*/
-
-/*imagem logo*/
-
-
 /*titulo*/
 .titulo{
-    font-family:cursive;/*estilo da fonte*/
-    font-size: 37px;/*tamanho da letras*/
-    text-align: center;/*alinhamneto do texto*/
-    padding-right: 50%;/*espaçamento interno(direita)*/
-    padding-left: 42%;/*espacamento interno(esquerda)*/
+    
 }
 
 /* div do botão voltar*/
@@ -108,6 +90,9 @@ color: rgb(255, 193, 217); /*cor das letras*/
   margin: 0;
   padding: 0;
   display: flex;
+  font-family:cursive;/*estilo da fonte*/
+  font-size: 37px;/*tamanho da letras*/
+  text-align: center;/*alinhamneto do texto*/
 }
 
 .apersonagens{
@@ -121,10 +106,6 @@ color: rgb(255, 193, 217); /*cor das letras*/
   margin-left: 20px;
 }*/
 
-.menu a{
-  color: white;
-  text-decoration: none;
-}
 
 .dropdown{
   position: relative;
