@@ -2,46 +2,54 @@ body{
   background-image: url(../DokiDoki/imgs/fundo.png); /*imagem de fundo*/
 }
 
-/*div do cabeçalho*/
+/*cabeçalho*/
 #cabeca{
   background-color: rgb(255, 193, 217);/*cor do fundo*/
   height: 100px;/*altura*/
-  text-align: center;/*alinhamento do texto*/
+  padding: 20px;/*espaçamento inetrno*/
   color: white;/*cor das letras*/
   clear: both;/*impede que outros elementos se posicionem aos seus lados(esquqqedo e direito)*/
-  padding: 20px; /*espacamento interno*/
 }
 
 /*imagem logo*/
 .logo{
-  float: left;/*deslocamento do elemento*/
+  float: left;/*desloca o elemento*/
   width: 110px;/*largura*/
   height: 110px;/*altura*/
   position: static;/*como a imagem se comporta*/
   padding-top: 1px;/*espaçamento interno(topo)*/
-  padding-bottom: 20px;/*espaçamento interno(base)*/
-}
-
-/*botão voltar*/
-.voltar{
-  color: rgb(174, 12, 131);/*cor das letras*/
-  text-decoration: none;/*decoração do texto(sublinhado)*/
-  font-family: cursive;/*estilo de fonte*/
-  font-size: 25px;/*tamanho da fonte*/
-  text-align: right;/*alinhamento do texto*/
-  float: right;/*deslocamento do elemento*/
-}
-/*botão voltar(ao passar mause por cima)*/
-.voltar:hover{
-  color: rgb(255, 193, 217); /*cor das letras*/
+  padding-bottom: 20px;/*espaçamento inetrno(base)*/
 }
 
 /*titulo*/
 .titulo{
-  font-family:cursive;/*estilo de fonte*/
-  font-size: 37px; /*tamanho das letras*/
-  margin-right: 0px;/*margem(direita)*/
-  padding-right: 0px;/*espaçamento interno(direita)*/
+  font-family:cursive;/*estilo da fonte*/
+  font-size: 37px;/*tamanho da letras*/
+  text-align: center;/*alinhamneto do texto*/
+  padding-right: 50%;/*espaçamento interno(direita)*/
+  padding-left: 42%;/*espacamento interno(esquerda)*/
+}
+
+/* div do botão voltar*/
+#volte{
+float: right;/*desloca o elemento*/
+height: 40px;/*altura*/
+text-align: right;/*alinhamento do texto*/
+padding-bottom: 5px;/*espaçamento inetrno(base)*/
+clear: both;/*impede que outros elementos se posicionem aos seus lados(esquqqedo e direito)*/
+}
+/*botão voltar*/
+.voltar{
+color: rgb(174, 12, 131);/*cor das letras*/
+text-decoration: none;/*decorações do texto(sublinhado)*/
+font-family: cursive;/*estilo da fonte*/
+font-size: 25px;/*tamanho das letras*/
+text-align: right;/*alinhamento do texto*/
+float: right;/*deslocamento do elemento*/
+}
+/*botão voltar(ao passar o mause por cima*/
+.voltar:hover{
+color: rgb(255, 193, 217); /*cor das letras*/
 }
 
 /*imagem das personagens*/
