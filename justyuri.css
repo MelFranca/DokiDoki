@@ -1,5 +1,6 @@
 body{
   background-image: url(../DokiDoki/imgs/fundo.png); /*imagem de fundo*/
+  
   align-items: center;
   justify-content: center;
 }
@@ -61,9 +62,11 @@ color: rgb(255, 193, 217); /*cor das letras*/
   margin-right: 20px; /* Adiciona espaçamento à direita da imagem */
   align-items: center;
   margin-left: 280px;
+  
 }
 
 .row1, .row2, .row3, .row4 {
+  margin: auto;
   display: flex; /* Ativa o Flexbox para alinhar os elementos */
   align-items: center; /* Alinha verticalmente os elementos ao centro */
   text-align: center; /* Centraliza o texto dentro da div */
