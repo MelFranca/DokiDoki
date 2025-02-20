@@ -54,24 +54,36 @@ color: rgb(255, 193, 217); /*cor das letras*/
 
 /*imagem das personagens*/
 .s, .n, .y{
-  margin-left: 100px;
-  width: 290px;/*largura*/
-  height: 290px;/*altura*/
+  width: 200px; /* Define a largura da imagem */
+  margin-right: 20px; /* Adiciona espaçamento à direita da imagem */
 }
 
 
 /*imagem de um das personagnes(esta em tamanho diferente, por isso foi separado)*/
 .m{
-  margin-left: 100px;
-  width: 295px;/*largura*/
-  height: 295px;/*altura*/
+  width: 200px; /* Define a largura da imagem */
+  margin-right: 20px;
 }
 
-/*div dos textos*/
+/*div dos textos
 #textos{
-  width: 50%;/*largura*/
-  height: 1000px;/*altura*/
+  width: 50%;
+  height: 1000px;
+}*/
+
+.row {
+  display: flex; /* Ativa o Flexbox para alinhar os elementos */
+  align-items: center; /* Alinha verticalmente os elementos ao centro */
+  text-align: center; /* Centraliza o texto dentro da div */
+  padding: 20px; /* Adiciona espaçamento interno */
 }
+
+/*nome das personagens*/
+.tituloS{
+  text-align: left;
+  align-items: left;
+}
+
 
 /*textos sobre as personagens*/
 .tY, .tM, .tN, .tS{
@@ -86,11 +98,8 @@ color: rgb(255, 193, 217); /*cor das letras*/
 
 
 .Ss, .Nn, .Yy, .Mm {
-  color: rgb(174, 12, 131);/*cor das letras*/
-  font-family: cursive;
-  text-align: justify;/*alinhamento do texto*/
+  flex: 1;
 }
-
 
 
 
