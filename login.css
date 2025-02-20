@@ -138,4 +138,7 @@ label {
             background-color: gray;
         }
 
-        
+        .container{
+                position: fixed;
+                bottom: 0;
+        }

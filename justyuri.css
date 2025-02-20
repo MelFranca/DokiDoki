@@ -1,5 +1,7 @@
 body{
   background-image: url(../DokiDoki/imgs/fundo.png); /*imagem de fundo*/
+  align-items: center;
+  justify-content: center;
 }
 
 /*cabeçalho*/
@@ -53,17 +55,24 @@ color: rgb(255, 193, 217); /*cor das letras*/
 }
 
 /*imagem das personagens*/
-.s, .n, .y{
-  width: 200px; /* Define a largura da imagem */
+ .n, .y,.m{
+  height: 250px;
+  width: 250px; /* Define a largura da imagem */
   margin-right: 20px; /* Adiciona espaçamento à direita da imagem */
+  align-items: center;
+  margin-left: 500px;
+}
+
+.s{
+  height: 250px;
+  width: 250px; /* Define a largura da imagem */
+  margin-right: 20px; /* Adiciona espaçamento à direita da imagem */
+  align-items: center;
+  margin-left: 380px;
 }
 
 
-/*imagem de um das personagnes(esta em tamanho diferente, por isso foi separado)*/
-.m{
-  width: 200px; /* Define a largura da imagem */
-  margin-right: 20px;
-}
+
 
 /*div dos textos
 #textos{
@@ -71,7 +80,7 @@ color: rgb(255, 193, 217); /*cor das letras*/
   height: 1000px;
 }*/
 
-.row {
+.row1, .row2, .row3, .row4 {
   display: flex; /* Ativa o Flexbox para alinhar os elementos */
   align-items: center; /* Alinha verticalmente os elementos ao centro */
   text-align: center; /* Centraliza o texto dentro da div */
@@ -79,9 +88,11 @@ color: rgb(255, 193, 217); /*cor das letras*/
 }
 
 /*nome das personagens*/
-.tituloS{
+.tituloS, .tituloY, .tituloN, .tituloM{
   text-align: left;
   align-items: left;
+  color: rgb(174, 12, 131);/*cor das letras*/
+  font-family: cursive;
 }
 
 
@@ -89,11 +100,7 @@ color: rgb(255, 193, 217); /*cor das letras*/
 .tY, .tM, .tN, .tS{
   color: rgb(174, 12, 131);/*cor das letras*/
   font-family: cursive;/*estilo de fonte*/
-  margin-bottom: 170px;/*margem(base)*/
-  margin-top: 75px;/*margem(topo)*/
-  margin-right: 40px;/*margem(direita)*/
-  padding-right: 40px;/*espacamento interno(direito)*/
-  text-align: justify;/*alinhamento do texto*/
+  text-align: justify ;/*alinhamento do texto*/
 }
 
 

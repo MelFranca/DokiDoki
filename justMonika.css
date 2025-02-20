@@ -45,6 +45,7 @@ background-image: url(../DokiDoki/imgs/fundo.png); /*imagem do plano de fundo*/
 /*links para outras paginas(ao passar o mause por cima)*/
 .a1:hover, .a2:hover, .a3:hover, .a4:hover{
     color: rgb(174, 12, 131);/*cor das letras*/
+    text-decoration: none;
 }
 
 /*textos*/
@@ -97,4 +98,6 @@ background-image: url(../DokiDoki/imgs/fundo.png); /*imagem do plano de fundo*/
     margin-left: 0px;/*margem(esquerda)*/
     position: fixed;/*como a imagem vai se comportar*/
 }
+
+
 
