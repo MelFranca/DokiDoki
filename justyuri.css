@@ -17,7 +17,7 @@ body{
   width: 110px;/*largura*/
   height: 110px;/*altura*/
   position: static;/*como a imagem se comporta*/
-  padding-top: 1px;/*espaçamento interno(topo)*/
+  padding-top: 0px;/*espaçamento interno(topo)*/
   padding-bottom: 20px;/*espaçamento inetrno(base)*/
 }
 
@@ -53,13 +53,16 @@ color: rgb(255, 193, 217); /*cor das letras*/
 }
 
 /*imagem das personagens*/
-.s, .y, .n{
+.s, .n, .y{
+  margin-left: 100px;
   width: 290px;/*largura*/
   height: 290px;/*altura*/
 }
 
+
 /*imagem de um das personagnes(esta em tamanho diferente, por isso foi separado)*/
 .m{
+  margin-left: 100px;
   width: 295px;/*largura*/
   height: 295px;/*altura*/
 }
@@ -68,17 +71,23 @@ color: rgb(255, 193, 217); /*cor das letras*/
 #textos{
   width: 50%;/*largura*/
   height: 1000px;/*altura*/
-  float: left;/*deslocamento do elemento*/
 }
 
 /*textos sobre as personagens*/
-.tS, .tY, .tM, .tN{
+.tY, .tM, .tN, .tS{
   color: rgb(174, 12, 131);/*cor das letras*/
   font-family: cursive;/*estilo de fonte*/
   margin-bottom: 170px;/*margem(base)*/
   margin-top: 75px;/*margem(topo)*/
   margin-right: 40px;/*margem(direita)*/
   padding-right: 40px;/*espacamento interno(direito)*/
+  text-align: justify;/*alinhamento do texto*/
+}
+
+
+.Ss, .Nn, .Yy, .Mm {
+  color: rgb(174, 12, 131);/*cor das letras*/
+  font-family: cursive;
   text-align: justify;/*alinhamento do texto*/
 }
 
