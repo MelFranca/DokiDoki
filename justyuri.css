@@ -32,14 +32,6 @@ body{
   padding-left: 42%;/*espacamento interno(esquerda)*/
 }
 
-/* div do botão voltar*/
-#volte{
-float: right;/*desloca o elemento*/
-height: 40px;/*altura*/
-text-align: right;/*alinhamento do texto*/
-padding-bottom: 5px;/*espaçamento inetrno(base)*/
-clear: both;/*impede que outros elementos se posicionem aos seus lados(esquqqedo e direito)*/
-}
 /*botão voltar*/
 .voltar{
 color: rgb(174, 12, 131);/*cor das letras*/
@@ -60,7 +52,7 @@ color: rgb(255, 193, 217); /*cor das letras*/
   width: 250px; /* Define a largura da imagem */
   margin-right: 20px; /* Adiciona espaçamento à direita da imagem */
   align-items: center;
-  margin-left: 500px;
+  margin-left: 400px;
 }
 
 .s{
@@ -68,17 +60,8 @@ color: rgb(255, 193, 217); /*cor das letras*/
   width: 250px; /* Define a largura da imagem */
   margin-right: 20px; /* Adiciona espaçamento à direita da imagem */
   align-items: center;
-  margin-left: 380px;
+  margin-left: 280px;
 }
-
-
-
-
-/*div dos textos
-#textos{
-  width: 50%;
-  height: 1000px;
-}*/
 
 .row1, .row2, .row3, .row4 {
   display: flex; /* Ativa o Flexbox para alinhar os elementos */
