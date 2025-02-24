@@ -6,3 +6,8 @@
     padding-right: 40%;/*espaçamento interno(direita)*/
     padding-left: 40%;/*espacamento interno(esquerda)*/
 }
+
+.container{
+    position: fixed;
+    bottom: 0;
+}
